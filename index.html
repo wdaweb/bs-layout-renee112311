@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      font-family: "微軟正黑體";
+    }
+
+    html,
+    body {
+      height: 100%;
+    }
+
+    body {
+      background-image: linear-gradient(0deg, #000, rgb(49, 49, 49) 20%, rgb(37, 37, 37) 80%, #000);
+      color: #FFF;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .container {
+      margin: auto;
+    }
+
+    div {
+      text-align: center;
+    }
+
+    p {
+      text-align: left;
+    }
+
+    #round {
+      margin: auto;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background: url("https://picsum.photos/300/300/?random=1") no-repeat center center/cover;
+    }
+  </style>
+  <title>layout</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h3>LOGO</h3>
+      </div>
+      <div class="col d-none d-md-block"></div>
+      <div class="w-100 d-md-none"></div>
+      <div class="col d-flex justify-content-around px-5" style="font-size: 14px;">
+        <div class="px-2">Home</div>
+        <div class="px-2">Features</div>
+        <div class="px-2">Works</div>
+        <div class="px-2">Contact</div>
+      </div>
+    </div>
+  </div>
+  <div class="container my-5 p-5">
+    <div id="round"></div>
+    <h1>Bootstrap Layout</h1>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, incidunt. Dolor repudiandae ab cupiditate
+      expedita nihil perferendis molestiae nostrum quis sed quo, rem omnis quidem eaque ipsum ipsam aperiam ratione?
+    </p>
+    <button class="btn btn-light">Learn more</button>
+  </div>
+  <div class="container">
+    <div>Design by Renee</div>
+  </div>
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="./js/jquery-3.5.1.min.js"></script>
+  <script src="./js/popper.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
